@@ -11,6 +11,9 @@ class Rectangle
 		Rectangle(int x, int y);
 		~Rectangle() {};
 		// Accessor Method
+
+		virtual double getArea();
+
 		int getX();
 	private:
 		// Private member attributes (NOTE: trailing underscore)

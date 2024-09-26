@@ -1,3 +1,5 @@
+//Pledge: all work in this file is my own and is not the work of somebody else
+
 #ifndef STUDENT_H
 #define STUDENT_H
 
@@ -19,11 +21,7 @@ public:
     double calculateGPA(int gradePoints, int creditHours);
     char assignLetterGrade(double gpa, char letterGrade);
     void printInfo() const;
- /*   String getID() const;
-    int getGradePoints() const;
-    int getCreditHours() const;
     double getGPA() const;
-    char getLetterGrade() const; */
 };
 
 #endif // STUDENT_H

@@ -1,0 +1,20 @@
+-- SHOW TABLES;
+
+
+SELECT PNAME, COLOR
+FROM Parts
+WHERE COLOR = 'Red'
+;
+
+-- 2
+SELECT PNAME, WEIGHT
+FROM Parts
+;
+
+-- 3
+ SELECT PNAME, WEIGHT
+ FROM Parts WHERE COLOR = 'Red'
+
+ -- 4
+ SELECT FROM Supplier INNER JOIN Shipment
+ ;

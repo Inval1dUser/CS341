@@ -12,4 +12,10 @@ Rectangle::Rectanlge(int x, int y)
     y_ = y;
 }
 
-int Rectangle::getX();
+int Rectangle::getX() {
+    return x_;
+}
+
+double Rectangle::getArea() {
+    return x * y;
+}

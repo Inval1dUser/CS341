@@ -1,3 +1,5 @@
+//Pledge: all work in this file is my own and is not the work of somebody else
+
 #include "Student.h"
 #include <iostream>
 #include <iomanip>  // For GPA formatting
@@ -25,24 +27,7 @@ void Student::printInfo() const {
 }
 
 Student::~Student() {}
-/*
-string Student::getID() const {
-    return id;
-}
-
-int Student::getGradePoints() const {
-    return gradePoints;
-}
-
-int Student::getCreditHours() const {
-    return creditHours;
-}
 
 double Student::getGPA() const {
     return gpa;
 }
-
-char Student::getLetterGrade() const {
-    return letterGrade;
-}
-*/
